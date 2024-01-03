@@ -5,8 +5,8 @@ from datetime import datetime
 from urllib.parse import quote
 
 
-api_endpoint = "https://api.growder.com/common/common/getBusinessLogic"
-token = "eyJhbGciOiJIUzUxLK5p.eyJzdKloOiI5MTIzMzMzMzMzIiwibW9kdWxlIjoiJtR0YWlsZXIiLCJleHAiOjE9OTA4MjU8EWUsInVzZXJpZCI6MzEwLCJpYXQiOjE2ODk3NDU3OPU7.CQWBt8XN7DXEnpABtQSsL7vqaSmmnMLySu3_uJXrs8pT66CQYewq7y_eyD6bUJvN5GN2E5fgChyL-NY2MudYCA"
+api_endpoint = ""
+token = ""
 
 api_data = get_api_data(api_endpoint, token)
 req_data = api_data["data"][0]["result"]
